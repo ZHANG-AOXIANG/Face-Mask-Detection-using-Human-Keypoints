@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "format": "jpg",
+    "id": "669191cbb90453b5ac8e42949ec220ee",
+    "name": "no_face_mask_3.jpg",
+    "path": "file:C:/Users/THINKPAD/Documents/VOTT_image/nomask/image_nomask/no_face_mask_3.jpg",
+    "size": {
+      "width": 440,
+      "height": 660
+    },
+    "state": 2,
+    "type": 1
+  },
+  "regions": [
+    {
+      "id": "DvBKu45st",
+      "type": "RECTANGLE",
+      "tags": [
+        "nomask"
+      ],
+      "boundingBox": {
+        "height": 70.48543689320388,
+        "width": 57.66990291262136,
+        "left": 201.31067961165047,
+        "top": 133.49514563106797
+      },
+      "points": [
+        {
+          "x": 201.31067961165047,
+          "y": 133.49514563106797
+        },
+        {
+          "x": 258.9805825242718,
+          "y": 133.49514563106797
+        },
+        {
+          "x": 258.9805825242718,
+          "y": 203.98058252427185
+        },
+        {
+          "x": 201.31067961165047,
+          "y": 203.98058252427185
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0"
+}

@@ -1,0 +1,48 @@
+{
+  "asset": {
+    "format": "jpg",
+    "id": "62cabc8f62f61c11bf7c638f3bd73559",
+    "name": "no_face_mask_8.jpg",
+    "path": "file:C:/Users/THINKPAD/Documents/VOTT_image/nomask/image_nomask/no_face_mask_8.jpg",
+    "size": {
+      "width": 440,
+      "height": 440
+    },
+    "state": 2,
+    "type": 1
+  },
+  "regions": [
+    {
+      "id": "aUF7joNHy",
+      "type": "RECTANGLE",
+      "tags": [
+        "nomask"
+      ],
+      "boundingBox": {
+        "height": 117.47572815533981,
+        "width": 111.06796116504854,
+        "left": 161.97411003236246,
+        "top": 41.29449838187702
+      },
+      "points": [
+        {
+          "x": 161.97411003236246,
+          "y": 41.29449838187702
+        },
+        {
+          "x": 273.042071197411,
+          "y": 41.29449838187702
+        },
+        {
+          "x": 273.042071197411,
+          "y": 158.77022653721681
+        },
+        {
+          "x": 161.97411003236246,
+          "y": 158.77022653721681
+        }
+      ]
+    }
+  ],
+  "version": "2.0.0"
+}
