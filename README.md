@@ -23,7 +23,7 @@ The core innovation lies in using human keypoints (eyes and nose) to define the 
 ## System Architecture
 
 <p align="center">
-    <img src="assert/SystemFramework.jpg" width="70%" />
+    <img src="assert/SystemFramework.jpg" width="100%" />
     <br>
     <em>Figure 1: Face Mask Detection using Human Keypoints System</em>
 </p>
@@ -50,7 +50,7 @@ A fine-tuned **ResNet-18** architecture serves as the core classifier. By feedin
 #### Train history
 The training plots illustrate the convergence of the ResNet-18 classifier over 25 epochs. The model achieved a high validation accuracy (approaching 100%) early in the training process, with both training and validation losses steadily declining, indicating stable learning and effective feature extraction for mask classification.
 <p align="center">
-  <img src="assert/train_classifier.png" width="60%" />
+  <img src="assert/train_classifier.png" width="90%" />
 </p>
 
 ### System-Level Evaluation
@@ -71,10 +71,9 @@ The following matrices show the system's performance under different IoU thresho
 #### Precision, Recall, F1-score, Accuracy in different IoU
 The plots visualize the ResNet-18 classifier's performance over 25 epochs. The model demonstrates rapid convergence, with the validation accuracy quickly stabilizing near 100%. The consistent decline in both training and validation losses, coupled with high precision across all epochs, indicates a highly effective feature extraction process and robust generalization for face mask classification.
 <p align="center">
-  <img src="assert/evaluation_results_figures_001_03/metrics_vs_iou.png" width="60%" />
+  <img src="assert/evaluation_results_figures_001_03/metrics_vs_iou.png" width="75%" />
     <br>
     <em>Figure ：System Performance Evaluation across Multiple IoU Thresholds</em>
-
 </p>
 
 ## Future Work
