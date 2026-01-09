@@ -1,6 +1,7 @@
 from src.utils.parser import KeypointsParser
 from src.utils.img_tool import ImgProcessor
 
+
 GREEN = (0, 255, 0)
 BLUE = (255, 0, 0)
 RED = (0, 0, 255)

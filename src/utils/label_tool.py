@@ -75,10 +75,10 @@ class LabelVisualizer(ImgProcessor, LabelParser):
 
 
 if __name__ == "__main__":
-    label_path = '../../data/data_samples60/label/no_face_mask_17.json'
-    img_pth = '../../data/data_samples60/data/no_face_mask_17.jpg'
-    label_path00 = '../../data/data_samples60/label/partA17.json'
-    img_pth00 = '../../data/data_samples60/data/partA17.jpg'
+    label_path = '../../data/data_samples60/label/no_face_mask_0.json'
+    img_pth = '../../data/data_samples60/data/no_face_mask_0.jpg'
+    label_path00 = '../../data/data_samples60/label/partA12.json'
+    img_pth00 = '../../data/data_samples60/data/partA12.jpg'
 
     lb_parser = LabelParser(label_path00)
     label_data = lb_parser.label_data
@@ -93,5 +93,5 @@ if __name__ == "__main__":
     draw_img = img.copy()
     lb_visualizer = LabelVisualizer(draw_img, label_path00)
     lb_visualizer.all_box_visualizer()
-    cv.imwrite('label_box.jpg', draw_img)
+    cv.imwrite('../../assert/label_box01.jpg', draw_img)
     print(lb_parser.get_tags_num())
