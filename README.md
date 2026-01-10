@@ -169,7 +169,7 @@ robust generalization for face mask classification.
 <p align="center">
   <img src="assert/evaluation_results_figures_001_03/metrics_vs_iou.png" width="75%" />
     <br>
-    <em>Figure ：System Performance Evaluation across Multiple IoU Thresholds</em>
+    <em>Figure 2：System Performance Evaluation across Multiple IoU Thresholds</em>
 </p>
 
 For Examples, IoU=0.3
