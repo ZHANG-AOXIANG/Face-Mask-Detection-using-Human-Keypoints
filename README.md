@@ -116,7 +116,7 @@ epochs. The model achieved a high validation accuracy (**approaching 100%**) ear
 steadily declining, indicating stable learning and effective feature extraction for mask classification.
 
 <p align="center">
-  <img src="assert/train_classifier.png" width="77%" />
+  <img src="assert/train_classifier.png" width="90%" />
 </p>
 
 ### System-Level Evaluation
@@ -166,7 +166,9 @@ with the validation accuracy quickly stabilizing near 100%. The consistent decli
 losses, coupled with high precision across all epochs, indicates a highly effective feature extraction process and
 robust generalization for face mask classification.
 <p align="center">
-  <img src="assert/evaluation_results_figures_001_03/metrics_vs_iou.png" width="60%" />
+  <img src="assert/evaluation_results_figures_001_03/metrics_vs_iou.png" width="75%" />
+    <br>
+    <em>Figure ：System Performance Evaluation across Multiple IoU Thresholds</em>
 </p>
 
 For Examples, IoU=0.3
