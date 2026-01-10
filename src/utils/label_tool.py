@@ -93,5 +93,5 @@ if __name__ == "__main__":
     draw_img = img.copy()
     lb_visualizer = LabelVisualizer(draw_img, label_path00)
     lb_visualizer.all_box_visualizer()
-    cv.imwrite('../../assert/label_box01.jpg', draw_img)
+    cv.imwrite('../../assert/img_label_sample/label_box01.jpg', draw_img)
     print(lb_parser.get_tags_num())
