@@ -14,6 +14,7 @@ git clone
 pip install -r requirement.txt
 
 python main_image.py # demo a picture
+
 ```
 
 ## Project Structure
@@ -35,7 +36,7 @@ Face-Mask-Detection-Using-Human-Keypoints/
 │   │   └── val/
 │
 ├── Model/              # trained models
-├── main_image.py/      # demo: test one image 
+├── main_image.py       # demo: test one image to detect face mask
 ├── README.md
 └── requirements.txt
 
